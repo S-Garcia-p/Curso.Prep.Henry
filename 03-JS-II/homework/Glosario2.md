@@ -1,0 +1,5 @@
+Bucle For: 
+el bucle for está compuesto por una variable, una condición de variable y un complemento que generalmente se usa para indicarle a la variable si es creciente, decreciente o neutra.
+
+
+&&, ||, !: Los operadores logicos se usan para analizar dos expresiones y decidir si es true o false, tenemos la primera que es && que siginifica (and)la cual analiza que las dos expresiones sean verdaderas, si una de ellas es falsa inmediatamente arroja false, segundo tenemos || que significa (OR), esta analiza entre las dos variables si entre las dos variables hay una expresión verdadera para arrojar el true, solo devolverá false si las dos expresiones son falsas. Por último  tenemos ! que es una negación y lo que hace es negar inmediatamente lo que estamos haciendo, es como el menos en una formula matemática, al romperse se 	se devuelve el valor al opuesto del resultado. 
