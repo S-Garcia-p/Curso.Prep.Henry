@@ -62,14 +62,31 @@ function esEntero(numero) {
   // De lo contrario, devuelve "false"
   // Pista: Puedes resolver esto usando `Math.floor`
   // Tu código:
+  if (numero === Math.floor(numero))
+    return true;
+  else { 
+    return false;
+  }
 }
 
-function fizzBuzz(numero) {
+ function fizzBuzz(numero) {
   // Si "numero" es divisible entre 3, devuelve "fizz"
   // Si "numero" es divisible entre 5, devuelve "buzz"
   // Si "numero" es divisible entre 3 y 5 (ambos), devuelve "fizzbuzz"
   // De lo contrario, devuelve el numero
-}
+  if (numero % 15 === 0) 
+    return 'fizzBuzz';
+  
+  if (numero % 5 === 0) 
+    return 'buzz';
+  
+  if (numero % 3 === 0) 
+    return 'fizz';
+   
+  else 
+    return numero;
+
+}  
 
 function esPrimo(numero) {
   // Devuelve "true" si "numero" es primo
