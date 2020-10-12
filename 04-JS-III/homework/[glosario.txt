@@ -1,0 +1,1 @@
+Array: Son cajas donde se almacenan datos en lista y pueden contener diferentes tipos de datos, las mismas se guardan en corchetes. 
