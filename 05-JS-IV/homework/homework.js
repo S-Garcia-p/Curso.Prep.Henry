@@ -6,11 +6,11 @@ function crearGato(nombre, edad) {
   // Agrega un método (funcion) llamado "meow" que devuelva el string "Meow!"
   // Devuelve el objeto
   // Tu código:
-  var gato = {
+  let gato = {
     nombre: nombre,
     edad: edad,
-    function(meow) {
-      return 'meow!';
+    meow: function(meow) {
+      return 'Meow!';
     }
   };
   return gato;
@@ -95,7 +95,7 @@ function verificarPassword(usuario, password) {
   // Devuelve "true" si coinciden
   // De lo contrario, devuelve "false"
   // // Tu código:
-  if (password === usuario[password]) {
+  if (password === usuario['password']) {
     return true;
   }
   else {
@@ -126,10 +126,11 @@ function pasarUsuarioAPremium(usuarios) {
   // Define cada propiedad "esPremium" de cada objeto como "true"
   // Devuelve el array de usuarios
   // Tu código:
-  for (var i = 0; i < usuarios.lenght; i++) {
+  for (var i = 0; i < usuarios.length; i++) {
     var usuario = usuarios[i]
     usuario['esPremium'] = true;
   }
+  return usuarios;
 }
 
 function sumarLikesDeUsuario(usuario) {
@@ -161,6 +162,7 @@ function agregarMetodoCalculoDescuento(producto) {
   };
   return producto;
 }
+
 
 // No modificar nada debajo de esta línea
 // --------------------------------
